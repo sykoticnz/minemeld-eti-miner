@@ -1,0 +1,29 @@
+url: https://github.com/sykoticnz/minemeld-eti-miner
+description: >
+  ETI extension for MineMeld.
+
+prototypes:
+  eti-urls:
+    author: Brad Pearpoint
+    description: ESET ETI
+    class: etiminer.Miner
+    development_status: EXPERIMENTAL
+    node_type: miner
+    tags:
+      - extension
+      - etiminer
+    indicator_types:
+      - any
+    config:
+      age_out:
+        sudden_death: false
+        default: last_seen+30d
+      host: eti.eset.com
+      discovery_service: /taxiiservice/discovery
+      collection: ei.urls
+      use_https: True
+      username: brad@advantage.co.nz
+      password: Aweld-2fec4hi
+      attributes:
+        share_level: yellow
+
