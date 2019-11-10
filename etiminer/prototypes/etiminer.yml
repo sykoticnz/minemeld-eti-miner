@@ -23,7 +23,7 @@ prototypes:
       collection: ei.urls
       use_https: True
       username: brad@advantage.co.nz
-      password: Aweld-2fec4hi
+      password: abc123
       attributes:
         share_level: yellow
 
