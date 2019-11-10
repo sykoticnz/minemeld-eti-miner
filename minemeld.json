@@ -7,7 +7,7 @@
     "url": "https://github.com/sykoticnz/minemeld-eti-miner.git",
     "entry_points": {
         "minemeld_nodes": {
-            "etiminer.Miner": "etiminer.node:Miner",
+            "etiminer.Miner": "etiminer.node:Miner"
         },
         "minemeld_prototypes": {
             "etiminer.prototypes": "etiminer:prototypes"
